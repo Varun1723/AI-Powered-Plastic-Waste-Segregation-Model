@@ -6,7 +6,7 @@ This repository contains a comprehensive, multi-stage project for plastic waste 
 
 ### 🛰️ Satellite-Based Detection
 
-The first part of the project, named PlastiSense, uses satellite imagery to automatically detect, map, and prioritize plastic accumulation in inland water bodies at a regional or national scale. It is designed to provide actionable outputs for municipal planners and environmental agencies.
+The first part of the project, uses satellite imagery to automatically detect, map, and prioritize plastic accumulation in inland water bodies at a regional or national scale. It is designed to provide actionable outputs for municipal planners and environmental agencies.
 
 **Methodology**
 The system uses Google Earth Engine (GEE) to process freely available Sentinel-2 imagery. The process is as follows:
