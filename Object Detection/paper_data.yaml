@@ -1,0 +1,55 @@
+names:
+- Aerosols
+- Aluminum can
+- Aluminum caps
+- Cardboard
+- Cellulose
+- Ceramic
+- Combined plastic
+- Container for household chemicals
+- Disposable tableware
+- Electronics
+- Foil
+- Furniture
+- Glass bottle
+- Iron utensils
+- Liquid
+- Metal shavings
+- Milk bottle
+- Organic
+- Paper bag
+- Paper cups
+- Paper shavings
+- Paper
+- Papier mache
+- Plastic bag
+- Plastic bottle
+- Plastic can
+- Plastic canister
+- Plastic caps
+- Plastic cup
+- Plastic shaker
+- Plastic shavings
+- Plastic toys
+- Postal packaging
+- Printing industry
+- Scrap metal
+- Stretch film
+- Tetra pack
+- Textile
+- Tin
+- Unknown plastic
+- Wood
+- Zip plastic bag 
+- Ramen Cup
+- Food Packet
+nc: 44
+roboflow:
+  license: CC BY 4.0
+  project: paper-iybve
+  url: https://universe.roboflow.com/modern-academy-for-engineering-enkza/paper-iybve/dataset/1
+  version: 1
+  workspace: modern-academy-for-engineering-enkza
+test: /kaggle/input/garbage-data/paper/paper-1/test/images
+train: /kaggle/input/garbage-data/paper/paper-1/train/images
+val: /kaggle/input/garbage-data/paper/paper-1/valid/images
