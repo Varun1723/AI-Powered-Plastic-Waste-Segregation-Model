@@ -5,25 +5,28 @@ This repository contains a real-time waste detection and classification prototyp
 ## 📂 Repository Structure
 
 ```
-Waste_Detection/
-├── YOLO-Waste-Detection-1/             # Core detection project
-│   ├── train_yolo.py                   # YOLOv8 training script
-│   ├── accuracy_check.py               # Per-class AP@0.5 metrics script
-│   ├── real_time_camo_fixed.py         # Real-time demo using Camo Studio
-│   ├── data.yaml                       # Dataset configuration
-│   ├── train/                          # Training images & labels
-│   │   ├── images/
-│   │   └── labels/
-│   ├── valid/                          # Validation images & labels
-│   │   ├── images/
-│   │   └── labels/
-│   ├── test/                           # Test images & labels
-│   │   ├── images/
-│   │   └── labels/
-│   └── baseline_train4/                # Training outputs
-│       ├── weights/best.pt             # Final YOLOv8 weights
-│       └── results.csv                 # Validation results table
-└── README.md                           # This file
+AI-POWERED-PLASTIC-WASTE-SEGREGATION-Model/
+├── Hotspot_Identification/
+│   ├── Plastic_hotspot_Identify.ipynb
+│   └── requirements.txt
+├── Object_Detection/
+│   └── Code_File/
+│       ├── accuracy_check.py
+│       ├── clean_labels.py
+│       └── real_time_camo.py
+├── paper/
+│   ├── data.yaml
+│   └── ... (other files)
+├── YOLO-Waste-Detection-1/
+│   ├── data.yaml
+│   └── ... (other files)
+├── accuracyPERclass.txt
+├── paper_data.yaml
+├── Train_result_VScode.txt
+├── yolov8n.pt
+├── .gitignore
+├── README.md
+└── (other files)
 ```
 
 ## 📝 Overview
